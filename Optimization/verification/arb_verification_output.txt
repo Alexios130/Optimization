@@ -1,0 +1,38 @@
+PRIMARY ARB VERIFICATION RECORD
+===============================
+
+Primary certificate
+-------------------
+Command:
+python3 certificate/verify_n3_certificate.py
+
+Status: PASS
+Arithmetic: python-flint Arb outward-rounded balls
+Precision: 256 bits
+Validated path cells: 23,973
+Certificate SHA-256:
+8218a69bcce225540785109591f3b8db6dc71892a5f508b491731e85a03fcfb2
+
+The four validated report enclosures are:
+rho_1: [0.5245653271531518, 0.5245653271531519]
+rho_2: [1.0369491958728015, 1.0369491958728016]
+rho_3: [2.6961208910188072, 2.6961208910188073]
+rho_4: [2.8324298315608840, 2.8324298315608841]
+
+The verifier refuses execution under `python -O`, so its proof checks cannot
+be silently disabled. In the latest tested environment the complete primary
+run took 1.86 seconds.
+
+Tested environment
+------------------
+Linux 6.18.35 x86_64
+CPU: Intel Xeon Platinum 8573C
+Python 3.12.13
+python-flint 0.9.0
+NumPy 2.3.5
+SciPy 1.17.0
+
+The independent fixed-lattice run is recorded separately in
+verification/fixed_lattice_output.txt. It took 611.93 seconds as a single
+CPU-bound process in this environment; elapsed time is
+hardware-dependent.
