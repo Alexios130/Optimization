@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite the article and the exact repository release."
+title: "Reproducibility package for worst-scenario switch complexity"
+type: software
+authors:
+  - given-names: Alexis
+    family-names: Seferlis
+    email: sefalexis@gmail.com
+repository-code: "https://github.com/Alexios130/mannalen"
+preferred-citation:
+  type: article
+  authors:
+    - given-names: Alexis
+      family-names: Seferlis
+      email: sefalexis@gmail.com
+  title: "Switch Complexity of Worst-Scenario Paths in Robust Logistic Regression"
+  year: 2026
